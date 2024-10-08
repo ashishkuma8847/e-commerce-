@@ -1592,7 +1592,9 @@ width: 115px;
 }
 
 
-
+a:hover{
+  color: #33A0FF;
+}
 /* responsive2 */
 @media (max-width:1188px) {
  
