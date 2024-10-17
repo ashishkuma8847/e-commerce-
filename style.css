@@ -1421,7 +1421,7 @@ width: 115px;
 }
 
 .footer-head-io2 {
-  margin: 80.87px 0 68.13px 0;
+  margin: 80.87px 0 68px 0;
   max-width: 1200.89px;
   width: 100%;
   display: flex;
@@ -1596,9 +1596,6 @@ a:hover{
   color: #33A0FF;
 }
 /* responsive2 */
-@media (max-width:1188px) {
- 
-}
 @media (max-width:1280px) {
   .main-fornav{
     max-width: 516.49px;
@@ -1687,7 +1684,6 @@ padding-right: 24px;
 
   .sectore-deco2-io8 {
     justify-content: center;
-
     gap: 80px;
   }
 
@@ -1728,7 +1724,7 @@ padding-right: 24px;
 
   .responsive-date-time {
     width: 100%;
-    display: block flex;
+    display:flex;
     justify-content: space-between;
     padding: 12px 15.33px 11px 21px;
   }
