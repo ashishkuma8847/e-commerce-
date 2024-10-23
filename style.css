@@ -401,6 +401,7 @@ cursor: pointer;
 }
 
 .sectore-image-io2 {
+  margin-top: 16px;
   width: 100%;
   justify-content: space-between;
   display: flex;
@@ -432,11 +433,12 @@ cursor: pointer;
   width: 100%;
   display: flex;
   gap: 17.7px;
-  padding: 8px 0 16px 0;
+  padding: 22px 0 16px 0;
   align-items: center;
 }
 
 .line-streight {
+  margin-bottom: 17px;
   max-width: 499.49px;
   width: 100%;
   padding: 1.2px;
@@ -978,15 +980,14 @@ cursor: pointer;
   padding-left: 31.88px;
   display: flex;
   align-items: start;
+  position: relative;
+
   height: 55.03px;
   width: 100%;
   border-bottom: 3px solid #E5E8EA;
 }
-.sector2-io1{
-  
-}
+
 .sector2-io1 a{
-  position: relative;
   display: inline-block;
   z-index: 1;
   font-family: "Poppins";
@@ -1023,25 +1024,24 @@ color: #8c8b8b;
 
   .sector2-io1 span{
   position: absolute;
-  top: 1015px;
-  left: 247px;
+  top:0px;
+  left: 32px;
   width: 148px;
-  height: 50px;
-  border-radius: 3px;
- border-bottom: 3px solid transparent;  
+  height: 55px;
+ border-bottom: 2px solid transparent;  
  opacity: 1;
   border-radius: 2px;
   transition:all 0.5s ease-in-out;
   }
-  .sector2-io1 a:nth-child(1):hover~span{ left:247px;
- border-bottom: 3px solid #33A0FF;  
+  .sector2-io1 a:nth-child(1):hover~span{ left:32px;
+ border-bottom: 2px solid #33A0FF;  
   } 
-  .sector2-io1 a:nth-child(2):hover~span{ left: 495px ;
- border-bottom: 3px solid #33A0FF;  
+  .sector2-io1 a:nth-child(2):hover~span{ left: 280px ;
+ border-bottom: 2px solid #33A0FF;  
 width: 95px;
   } 
-  .sector2-io1 a:nth-child(3):hover~span{ left:660px; 
- border-bottom: 3px solid #33A0FF;  
+  .sector2-io1 a:nth-child(3):hover~span{ left:450px; 
+ border-bottom: 2px solid #33A0FF;  
 width: 115px;
 
   } 
@@ -1734,7 +1734,7 @@ padding-right: 24px;
   margin: 0;
 }
   .footer-head-io2 {
-    margin-top:24px ;
+    margin: 0;
     margin-bottom:24px ;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -2004,9 +2004,15 @@ padding-right: 24px;
 
   .sector-responsive-buttons-io1 input {
     display: none;
-    overflow: auto;
   }
-
+.sector-responsive-buttons-io1 input:checked+label{
+  border:  2px solid ;
+  background-color: transparent;
+  margin: 1px;
+  padding: 1px;
+   width: 48px;
+   height: 48px;
+}
   .button-c1 {
     margin: 0;
     padding: 0.1px;
